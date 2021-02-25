@@ -4,9 +4,9 @@ import * as React from "react"
 const IndexPage = () => {
   return (
     <main>
-      <h1>Welcome to Gatsby!</h1>
+      <h1 style={{ color: `purple`, fontSize: `75px` }}>Welcome to Gatsby!</h1>
       <p>Continue... a happy learning with gatsby!!!</p>
-    </main>
+    </main >
   )
 }
 
