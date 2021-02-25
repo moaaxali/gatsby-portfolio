@@ -4,8 +4,11 @@ import * as React from "react"
 const IndexPage = () => {
   return (
     <main>
-      <h1 style={{ color: `purple`, fontSize: `75px` }}>Welcome to Gatsby!</h1>
-      <p>Continue... a happy learning with gatsby!!!</p>
+      <div style={{ color: `purple` }}>
+        <h1>Welcome to Gatsby!</h1>
+        <p>Continue... a happy learning with gatsby!!!</p>
+        <img src="https://source.unsplash.com/random/400x200" alt="" />
+      </div>
     </main >
   )
 }
