@@ -6,8 +6,10 @@ export default function Contact() {
   return (
     <div style={{ color: `teal` }}>
       <Link to="/">Home</Link>
-      <Header headerText="Contact" />
-      <p>Send us a message!</p>
+      <Header headerText="Contact Me!" />
+      <p>
+        <a href="mailto:me@example.com">me@example.com</a>
+      </p>
     </div>
   )
 }
