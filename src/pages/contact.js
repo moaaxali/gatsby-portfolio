@@ -7,7 +7,6 @@ export default function Contact() {
   return (
     <Layout>
       <div style={{ color: `teal` }}>
-        <Link to="/">Home</Link>
         <Header headerText="Contact Me!" />
         <p>
           <a href="mailto:me@example.com">me@example.com</a>
