@@ -50,3 +50,7 @@
 5.  **Learn more**
 
     - [Plugin Library](https://www.gatsbyjs.com/plugins/)
+
+6.  **GraphQL**
+
+    - [How to GraphQL](https://www.howtographql.com/)
