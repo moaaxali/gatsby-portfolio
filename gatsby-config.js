@@ -10,6 +10,13 @@ module.exports = {
     "gatsby-plugin-offline",
     "gatsby-transformer-sharp",
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `src`,
+        path: `${__dirname}/src/`,
+      },
+    },
+    {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",
