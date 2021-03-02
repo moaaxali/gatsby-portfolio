@@ -9,6 +9,7 @@ module.exports = {
     "gatsby-plugin-sitemap",
     "gatsby-plugin-offline",
     "gatsby-transformer-sharp",
+    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
